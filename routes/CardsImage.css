@@ -1,0 +1,69 @@
+/* CardsImage.css */
+
+/* Centering the entire section */
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Styling the heading */
+  h1 {
+    color: #333; /* Change the color as needed */
+    font-size: 24px; /* Adjust the font size as needed */
+    margin-bottom: 20px; /* Adjust the margin as needed */
+  }
+  
+  /* Styling the CardGroup container */
+  .CardGroup {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px; /* Adjust the gap between cards as needed */
+  }
+  
+  /* Styling individual cards */
+  .Card {
+    width: 18rem; /* Adjust the width as needed */
+    border: 1px solid #ddd; /* Add a border as needed */
+    border-radius: 8px; /* Adjust the border-radius as needed */
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  /* Adding hover effect to cards */
+  .Card:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Styling card images */
+  .Card.Img {
+    height: 200px; /* Adjust the height as needed */
+    object-fit: cover;
+  }
+  
+  /* Styling card footers */
+  .Card.Footer {
+    background-color: #f8f9fa; /* Add a background color as needed */
+    padding: 10px; /* Adjust the padding as needed */
+  }
+  
+  /* Styling small text in card footers */
+  .Card.Footer small {
+    color: #555; /* Adjust the color as needed */
+  }
+  
+  /* Centering elements inside cards */
+  .Card.Body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+  }
+  
+  /* Adding margin to the entire component */
+  .CardsImage {
+    margin: 20px; /* Adjust the margin as needed */
+  }
+  
